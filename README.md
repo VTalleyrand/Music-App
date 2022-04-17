@@ -24,7 +24,7 @@ Live site: [https://practical-pasteur-3595bc.netlify.app](https://practical-past
 
 - React is great at keeping your code seperated. 
 - Unlike pure html/css, sections of your site are built seperately and put together like lego blocks
-- React hooks make it easier to update the state, pass informations throughout your application.
+- React hooks make it easier to update the state, pass information throughout your application.
 
 <hr/>
 
