@@ -1,0 +1,26 @@
+.footer {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   height: var(--footer-height);
+}
+
+.footer .left-section {
+  display: flex;
+  list-style-type: none;
+  gap: 3.2rem;
+}
+
+.left-section a {
+  color: #828282;
+  text-decoration: none;
+}
+
+.left-section a:hover {
+  color: #000000;
+}
+
+.footer p {
+  color: #828282;
+}
+

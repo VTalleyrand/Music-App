@@ -1,0 +1,55 @@
+.header {
+  width: 100%;
+  height: var(--header-height);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-logo {
+ font-size: 1.7rem;
+ color: black;
+ text-decoration: none;
+ font-weight: bold;
+}
+
+.nav-top {
+width: 25vw;
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+}
+
+.header a:hover {
+ opacity: 8;
+}
+
+
+.nav-top a {
+ font-size: 1.5rem;
+ line-height: 2rem;
+ color: black;
+ text-decoration: none;
+ margin-left: 4vw;
+ font-weight: 400;
+}
+
+.nav-top a:hover {
+ opacity: .8;
+}
+
+
+.header .signout {
+ width: 8rem;
+ height: 2.8rem;
+ background: #ffd59c;
+ border: none;
+ border-radius: 3rem;
+ align-self: center;
+ cursor: pointer;
+}
+
+
+.header .signout:hover {
+ opacity: .8;
+}

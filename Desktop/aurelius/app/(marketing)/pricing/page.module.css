@@ -1,0 +1,29 @@
+.pricing-main {
+  min-height: calc(100vh - (var(--header-height) + var(--footer-height)));
+  display: flex;
+  justify-content: center;
+}
+
+.pricing-card {
+  margin-top: 7rem;
+  width: 80%;
+  max-width: 40rem;
+  height: 45rem;
+  background: white;
+  border: .05rem solid rgb(191, 191, 191);
+  border-radius: .5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 4rem;
+}
+
+.price {
+  font-size: 4rem;
+  margin-bottom: 2rem;
+  color: black;
+}
+
+.price span {
+  font-size: 1.6rem;
+}

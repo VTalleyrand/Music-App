@@ -1,0 +1,8 @@
+.home-video {
+  background: blue;
+}
+.video {
+  width: 100%;
+  max-width: 120rem;
+  background: black;
+}

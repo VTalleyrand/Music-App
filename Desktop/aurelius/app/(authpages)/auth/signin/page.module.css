@@ -1,0 +1,85 @@
+
+.signin-section {
+  position: absolute;
+  width: 100vw;
+  display: flex;
+  top:0;
+  left:0;
+}
+.signin-auth {
+  width: 60vw;
+  height: 100vh;
+  background: #0E0F11;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.signin-form {
+  width: 85%;
+  max-width: 40rem;
+}
+.signin-form hr {
+  height: 0.05rem;
+  background-color: #4d4d4d;
+  border: none;
+}
+
+.signin-form  h1{
+  margin: 1.5rem 0;
+}
+
+.signin-form .terms {
+  font-size: 1.2rem;
+  margin: 1.5rem 0;
+  color: white;
+}
+
+.signin-form hr {
+  color: white;
+
+}
+.signin-google-btn {
+  width: 100%;
+  height: 4.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #1B1923;
+  font-size: 1.4rem;
+  color: white;
+  border: none;
+  border-radius: .5rem;
+  padding: 1rem;
+  cursor: pointer;
+}
+
+.signin-google-btn:hover {
+  opacity: .8;
+}
+
+.signin-google-btn :nth-child(1) {
+  margin-right: 1rem;
+}
+
+
+
+.signin-left {
+  width: 40vw;
+  height: 100vh;
+  background: #282C34;
+}
+
+
+
+
+@media screen and (max-width: 699px) {
+  .signin-left {
+    display: none;
+  }
+  
+  .signin-auth {
+    width: 100vw;
+  }
+
+}
