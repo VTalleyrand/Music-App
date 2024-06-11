@@ -3,7 +3,7 @@ import styles from './Video.module.css';
 
 const video = () => {
   return (
-    <section className={styles['home-video']}>
+    <section className={styles['video-container']}>
       <div className={styles['video']}>
       </div>
     </section>

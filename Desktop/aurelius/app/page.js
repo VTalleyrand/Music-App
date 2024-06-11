@@ -1,6 +1,7 @@
 import styles from './page.module.css';
 import Hero from '@/components/home/Hero';
 import Video from '@/components/home/Video';
+import Features from '@/components/home/Features';
 import { getServerSession } from 'next-auth';
 import { redirect } from 'next/navigation';
 import Nav from '@/components/Nav';
@@ -18,6 +19,7 @@ export default async function Home() {
       <main className={styles.main}>
         <Hero />
         <Video />
+        <Features />
       </main>
   );
 }

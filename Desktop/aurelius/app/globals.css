@@ -3,7 +3,10 @@
 :root {
   --header-height: 7.5rem;
   --footer-height: 6.55rem;
+  --text-color-dark: #282C34;
+  --accent-color-dark: #282C34;
   --text-color: #828282;
+  --accent-color: #EBBF58;
 }
 
 * {

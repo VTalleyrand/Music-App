@@ -1,33 +1,32 @@
-.hero {
+.hero-container {
   text-align: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 12.8rem 0;
-  
+  padding: 10rem 0;
 }
 
 
-.hero h1 {
+.hero-heading {
   font-size: 6.4rem;
   font-weight: 600;
   line-height: 7rem;
   max-width: 65rem;
   margin-bottom: -1.3rem;
-  color: black;
+  color: var(--text-color-dark);
 }
 
-.hero h1 span {
-  color: #EBBF58;
+.hero-heading span {
+  color: var(--accent-color);
 }
 
-.hero p {
+.hero-container p {
   max-width: 48rem;
   font-size: 1.5rem;
   margin: 3.2rem 0;
   line-height: 1.6;
-  color: #828282;
+  color: var(--text-color);
 }
 
 .hero-cta {
@@ -36,7 +35,7 @@
   color: #FFFFFF;
   font-size: 1.3rem;
   font-weight: 700;
-  background: #282C34;
+  background: var(--accent-color-dark);
   border-style: none;
   border-radius: 1rem;
   cursor: pointer;
@@ -46,5 +45,3 @@
 .hero-cta:hover {
   opacity: .8;
 }
-
-

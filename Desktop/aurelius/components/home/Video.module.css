@@ -1,8 +1,11 @@
-.home-video {
-  background: blue;
-}
-.video {
+.video-container {
   width: 100%;
-  max-width: 120rem;
+  display: flex;
+  justify-content: center;
+}
+
+.video {
+  width: 80%;
+  height: 40vw;
   background: black;
 }

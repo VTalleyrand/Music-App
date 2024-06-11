@@ -12,15 +12,15 @@
 }
 
 .left-section a {
-  color: #828282;
+  color: var(--text-color);
   text-decoration: none;
 }
 
 .left-section a:hover {
-  color: #000000;
+  color: var(--text-color-dark);
 }
 
 .footer p {
-  color: #828282;
+  color: var(--text-color);
 }
 

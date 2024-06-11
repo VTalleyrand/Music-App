@@ -1,20 +1,24 @@
-.mission-main {
+.privacy-main {
   min-height: calc(100vh - (var(--header-height) + var(--footer-height)));
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  padding: 5rem 0;
 }
 
-.mission-title {
+.privacy-title {
   font-size: 3.5rem;
   font-weight: 600;
   margin-bottom: 1rem;
   color: #282C34;
+  padding-bottom: 2rem;
 }
 
-.mission-text {
+.privacy-text {
   font-size: 1.4rem;
-  text-align: center;
   max-width: 60rem;
+}
+
+.privacy-bold-text {
+font-weight: bold 
 }

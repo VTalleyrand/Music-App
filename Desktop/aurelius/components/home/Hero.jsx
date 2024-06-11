@@ -4,8 +4,8 @@ import styles from './Hero.module.css';
 
 const Hero = () => {
   return (
-    <section className={styles['hero']}>
-      <h1>
+    <section className={styles['hero-container']}>
+      <h1 className={styles['hero-heading']}>
         Craft <span>Excellence</span>, One Word at a Time.
       </h1>
       <p>
